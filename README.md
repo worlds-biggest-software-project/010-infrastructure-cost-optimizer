@@ -20,33 +20,39 @@ Cloud cost management is a $13.5–15.9B market where 27–29% of spend is waste
 
 ## Key Features
 
-**Multi-Cloud Cost Visibility**
+### Multi-Cloud Cost Visibility
+
 - Ingest billing data from AWS, Azure, and GCP via native billing APIs — no agent deployment required
 - Kubernetes cost allocation implementing the OpenCost Specification v1.3, compatible with existing OpenCost deployments
 - Multi-cluster aggregated view with bill reconciliation against cloud provider invoices
 - SaaS spend ingestion (Datadog, Snowflake, Databricks, OpenAI, Anthropic) for a unified allocation model
 
-**AI-Powered Cost Allocation**
+### AI-Powered Cost Allocation
+
 - Automatic tag inference: assigns untagged resources to owners using resource name, VPC membership, IAM policy content, and network topology — no re-tagging campaigns required
 - Virtual tags applied at query time without modifying live infrastructure
 - Team, product, and business-unit chargeback and showback reporting
 
-**Anomaly Detection and Explanation**
+### Anomaly Detection and Explanation
+
 - Anomaly detection with configurable alert thresholds
 - LLM-generated root-cause explanations alongside each alert — not just "spend increased 40%" but the probable cause (deployment, traffic event, configuration change)
 - Budgeting with forecast-to-budget variance tracking and 12-month forecasting
 
-**Rightsizing and Waste Elimination**
+### Rightsizing and Waste Elimination
+
 - Compute instance and Kubernetes pod rightsizing recommendations with workload-aware instance family matching
 - Idle resource detection and AutoStopping for non-production environments
 - Transparent Reserved Instance / Savings Plan recommendation engine with human-readable justifications and confidence scores
 
-**Shift-Left Developer Cost Feedback**
+### Shift-Left Developer Cost Feedback
+
 - Pull request cost impact comments for Terraform and CloudFormation before infrastructure is deployed
 - Policy-as-code governance with natural language authoring: describe rules in plain English, generate executable YAML
 - CLI for local cost exploration and CI/CD pipeline integration
 
-**AI and GPU Workload Attribution**
+### AI and GPU Workload Attribution
+
 - GPU utilisation cost allocation at workload level for training and inference jobs
 - Token-level LLM API cost tracking across OpenAI, Anthropic, and AWS Bedrock
 - Training-vs-inference cost separation for ML platform teams
@@ -83,14 +89,10 @@ The cloud cost management market is estimated at $13.5–15.9B in 2024–2025, g
 We welcome contributions from developers, domain experts, and potential users.
 See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
-**Important:** All contributions must be your own original work or clearly attributed
-open-source material with a compatible licence. Copyright infringement and licence
-violations will not be tolerated and will result in immediate removal of the offending
-contribution. If you are unsure whether a piece of code, text, or other material is
-safe to contribute, open an issue and ask before submitting.
+All contributions must be your own original work or clearly attributed open-source material with a compatible licence. Copyright infringement and licence violations will not be tolerated and will result in immediate removal of the offending contribution. If you are unsure whether a piece of code, text, or other material is safe to contribute, open an issue and ask before submitting.
 
 ---
 
 ## Licence
 
-Licence to be determined. See [discussion](#) for context.
+Licence to be determined.
